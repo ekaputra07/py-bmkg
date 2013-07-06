@@ -1,7 +1,7 @@
 py-bmkg
 =======
 
-A Python wrapper for accessing earth quake, climate data in Indonesia based on BMKG (http://data.bmkg.go.id/).
+A Python wrapper for accessing earth quake, climate data of Indonesia based on BMKG (http://bmkg.go.id/).
 
 This is new project, new wrapper will be added gradually. For now it includes:
 
@@ -25,5 +25,6 @@ This is new project, new wrapper will be added gradually. For now it includes:
         quakes = q.latest_quakes(single=True)
         print quakes
     
-
+    This module reads data from [http://data.bmkg.go.id/gempaterkini.xml](http://data.bmkg.go.id/gempaterkini.xml) or [http://data.bmkg.go.id/en_gempaterkini.xml](http://data.bmkg.go.id/en_gempaterkini.xml) depends on **lang** parameter that you specified when you call **latest_quakes**.
+    
 I hope I can add more and more tools soon.

@@ -7,7 +7,7 @@ setup(
     name = "py-bmkg",
     version = "0.1.0",
     url = 'https://github.com/ekaputra07/py-bmkg',
-    description = 'A Python wrapper for accessing earth quake, climate data of Indonesia based on BMKG (http://data.bmkg.go.id/).',
+    description = 'A Python wrapper for accessing earth quake, climate data of Indonesia based on BMKG (http://bmkg.go.id).',
     license = 'MIT License',
     author = 'Eka Putra',
     author_email = 'ekaputra@balitechy.com',
